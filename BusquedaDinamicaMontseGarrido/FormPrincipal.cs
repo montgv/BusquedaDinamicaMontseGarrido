@@ -101,7 +101,7 @@ namespace BusquedaDinamicaMontseGarrido
                 DataTable dt = new DataTable();
                 dt.Load(dataReader);
 
-                dt.DefaultView.RowFilter = string.Format(cbColumna.Text + " LIKE '{0}'", tbBuscar.Text);
+                dt.DefaultView.RowFilter = string.Format(cbColumna.Text + " LIKE '{0}%'", tbBuscar.Text);
 
                 dgv.DataSource = dt;
                 comando.Dispose();

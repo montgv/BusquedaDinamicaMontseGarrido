@@ -44,7 +44,7 @@
             this.dgv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 62;
-            this.dgv.Size = new System.Drawing.Size(746, 347);
+            this.dgv.Size = new System.Drawing.Size(892, 347);
             this.dgv.TabIndex = 0;
             // 
             // tbBuscar
@@ -61,7 +61,7 @@
             this.lbTitulo.AutoSize = true;
             this.lbTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lbTitulo.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTitulo.Location = new System.Drawing.Point(199, 18);
+            this.lbTitulo.Location = new System.Drawing.Point(306, 19);
             this.lbTitulo.Name = "lbTitulo";
             this.lbTitulo.Size = new System.Drawing.Size(388, 45);
             this.lbTitulo.TabIndex = 2;
@@ -70,7 +70,7 @@
             // cbColumna
             // 
             this.cbColumna.FormattingEnabled = true;
-            this.cbColumna.Location = new System.Drawing.Point(517, 116);
+            this.cbColumna.Location = new System.Drawing.Point(663, 116);
             this.cbColumna.Name = "cbColumna";
             this.cbColumna.Size = new System.Drawing.Size(268, 28);
             this.cbColumna.TabIndex = 3;
@@ -88,7 +88,7 @@
             // lbColumna
             // 
             this.lbColumna.AutoSize = true;
-            this.lbColumna.Location = new System.Drawing.Point(513, 82);
+            this.lbColumna.Location = new System.Drawing.Point(659, 82);
             this.lbColumna.Name = "lbColumna";
             this.lbColumna.Size = new System.Drawing.Size(272, 20);
             this.lbColumna.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 545);
+            this.ClientSize = new System.Drawing.Size(970, 545);
             this.Controls.Add(this.lbColumna);
             this.Controls.Add(this.lbBusqueda);
             this.Controls.Add(this.cbColumna);
